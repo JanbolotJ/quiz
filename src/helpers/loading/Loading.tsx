@@ -1,11 +1,12 @@
 
 
 import React from 'react'
+import { Components } from '../../components'
 
 export default function Loading() {
   return (
-    <div>
+    <Components.Container>
       <h3>loading....</h3>
-    </div>
+    </Components.Container>
   )
 }
